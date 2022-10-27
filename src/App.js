@@ -6,6 +6,14 @@ import IFG from "./tools/i4g.svg";
 import Share from "./tools/share.svg";
 import ShareMobile from "./tools/share-mobile.svg";
 
+function handleClick() {
+  return(
+    <div>
+      <h1>hey</h1>
+    </div>
+  )
+}
+
 function App() {
   return (
     <section className="App">
@@ -14,17 +22,16 @@ function App() {
           <img src={Pic} className="App-logo" alt="logo" id="profile_img" />
         </div>
         <div className="share">
-          <img src={Share} alt="share-icon" className="share-icon" />
-          <img src={ShareMobile} alt="share-mobile" className="share-mobile" />
+          <img src={Share} alt="share-icon" className="share-icon" onClick={handleClick}/>
+          <img src={ShareMobile} alt="share-mobile" className="share-mobile" onClick={handleClick}/>
         </div>{" "}
-        {/* <h2>Wonuola Alonge</h2> */}
+        
       </div>
       <h2>Wonuola Alonge</h2>
       <div className="links">
         <a href="https://twitter.com/Wonuola_w" id="Twitter">
           Twitter
         </a>
-        {/* <a href="/" id='Slack'>Slack</a> */}
         <a href="https://training.zuri.team/" id="btn-zuri">
           Zuri Team
         </a>

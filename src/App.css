@@ -29,7 +29,7 @@
 .profile-section > .share {
   display: flex;
   align-self: flex-end;
-  justify-content: end;
+  justify-content: flex-end;
   width: 30%;
 }
 .links {
@@ -37,10 +37,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 16px;
 }
 a {
   padding: 1.5em 2em;
-  margin: 16px;
+
   width: 20em;
   text-decoration: none;
   color: #101828;
@@ -92,6 +93,12 @@ hr {
   }
   .share > .share-icon {
     display: flex;
+    cursor: pointer;
+  }
+  .share > .share-icon:hover{
+    border-radius: 50px;
+      border: 1px solid gray;
+      padding: 5px;
   }
   .App {
     width: 100%;
@@ -104,7 +111,7 @@ hr {
   .profile-section > .share {
     display: flex;
     align-self: flex-end;
-    justify-content: end;
+    justify-content: flex-end;
     width: 30%;
   }
   .links {
