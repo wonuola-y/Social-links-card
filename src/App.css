@@ -43,7 +43,8 @@ button{
 }
 em{
 font-style: normal;
-margin: .5em;
+margin-top: .5em;
+font-size: 13px;
 }
 .links {
   display: flex;

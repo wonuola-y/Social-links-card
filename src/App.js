@@ -12,7 +12,8 @@ function App() {
 
   return (
     <section className="App">
-      <div className="profile-section">
+   <section>
+   <div className="profile-section">
         <div className="img">
           <img src={Pic} className="App-logo" alt="logo" id="profile_img" />
         </div>
@@ -29,15 +30,17 @@ function App() {
     
         {/* <em id="slack"> Slack-username: Wonuola-Alonge</em> */}
       </div>
-      <div className="links">
+   </section>
+    <section>
+    <div className="links">
         <a href="https://twitter.com/Wonuola_w" id="twitter">
           Twitter
         </a>
         <a href="https://training.zuri.team/" id="btn__zuri">
-          Zuri Team <em>This is where you find books about design and coding</em>
+          Zuri Team 
         </a>
         <a href="http://books.zuri.team" id="books">
-          Zuri books 
+          Zuri books <em>This is where you find books about design and coding</em>
         </a>
         <a
           href="https://books.zuri.team/python-for-beginners?ref_id=<Wonuola-Alonge>"
@@ -56,6 +59,7 @@ function App() {
           Design Books <em>This is where you pitch the free design book offered by Zuri.</em>
         </a>
       </div>
+    </section>
 
       <div className="icons">
         <a href="https://app.slack.com/client/T042F7V19Q8/C041JU70S5U/rimeto_profile/U04915L3P6U">
