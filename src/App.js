@@ -21,9 +21,16 @@ function App() {
       <img src={Share} alt="share-icon" className="share-icon" />
           <img src={ShareMobile} alt="share-mobile" className="share-mobile" />
         </div>{" "}
-        
+        em
       </div>
+      <div className="intro">
+        
       <h2>Wonuola Alonge</h2>
+      <em>Twitter: <a href="https://twitter.com/Wonuola_w" id="Twitter">
+         Wonuola_w
+        </a> </em>
+        {/* <em> Slack-username: Wonuola-Alonge</em> */}
+      </div>
       <div className="links">
         <a href="https://twitter.com/Wonuola_w" id="Twitter">
           Twitter
@@ -49,7 +56,7 @@ function App() {
       </div>
 
       <div className="icons">
-        <a href="/">
+        <a href="https://app.slack.com/client/T042F7V19Q8/C041JU70S5U/rimeto_profile/U04915L3P6U">
           <img
             src="https://cdn-icons-png.flaticon.com/128/2111/2111615.png"
             alt="slack"

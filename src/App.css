@@ -36,6 +36,8 @@ button{
   width: 50px;
   height: 50px;
 }
+em{
+font-style: normal;}
 .links {
   display: flex;
   flex-direction: column;
