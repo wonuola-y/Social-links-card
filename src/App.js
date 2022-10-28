@@ -27,29 +27,33 @@ function App() {
         
       <h2>Wonuola Alonge</h2>
     
-        {/* <em> Slack-username: Wonuola-Alonge</em> */}
+        {/* <em id="slack"> Slack-username: Wonuola-Alonge</em> */}
       </div>
       <div className="links">
-        <a href="https://twitter.com/Wonuola_w" id="Twitter">
+        <a href="https://twitter.com/Wonuola_w" id="twitter">
           Twitter
         </a>
-        <a href="https://training.zuri.team/" id="btn-zuri">
-          Zuri Team
+        <a href="https://training.zuri.team/" id="btn__zuri">
+          Zuri Team <em>This is where you find books about design and coding</em>
         </a>
         <a href="http://books.zuri.team" id="books">
-          Zuri books
+          Zuri books 
         </a>
         <a
-          href="https://books.zuri.team/python-for-beginners?ref_id=<Wonuola>"
+          href="https://books.zuri.team/python-for-beginners?ref_id=<Wonuola-Alonge>"
           id="book__python"
         >
-          Python Books
+          Python Books <em>
+            This is where you feature the book as if you were selling it
+          </em>
         </a>
         <a href="https://background.zuri.team" id="pitch">
-          Background Check for Coders
+          Background Check for Coders <em>
+            This is where you pitch a service for doing background checks on coders
+          </em>
         </a>
         <a href="https://books.zuri.team/design-rules" id="book__design">
-          Design Books
+          Design Books <em>This is where you pitch the free design book offered by Zuri.</em>
         </a>
       </div>
 
