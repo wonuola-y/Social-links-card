@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 .App {
   display: flex;
   flex-direction: column;
@@ -5,12 +6,16 @@
   align-items: center;
   width: 100%;
   position: absolute;
+  font-family: 'Inter', sans-serif;
 }
 .App-logo {
   width: 88px;
   height: 88px;
   margin-top: 2em;
   border-radius: 275px;
+}
+h2{
+  font-weight: 700;
 }
 .profile-section {
   display: flex;

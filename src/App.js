@@ -21,14 +21,12 @@ function App() {
       <img src={Share} alt="share-icon" className="share-icon" />
           <img src={ShareMobile} alt="share-mobile" className="share-mobile" />
         </div>{" "}
-        em
+        
       </div>
       <div className="intro">
         
       <h2>Wonuola Alonge</h2>
-      <em>Twitter: <a href="https://twitter.com/Wonuola_w" id="Twitter">
-         Wonuola_w
-        </a> </em>
+    
         {/* <em> Slack-username: Wonuola-Alonge</em> */}
       </div>
       <div className="links">
