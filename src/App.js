@@ -7,6 +7,7 @@ import Share from "./tools/share.svg";
 import ShareMobile from "./tools/share-mobile.svg";
 
 
+
 function App() {
 
   return (
@@ -17,7 +18,7 @@ function App() {
         </div>
         <div className="share">
     
-        <img src={Share} alt="share-icon" className="share-icon" />
+      <img src={Share} alt="share-icon" className="share-icon" />
           <img src={ShareMobile} alt="share-mobile" className="share-mobile" />
         </div>{" "}
         
