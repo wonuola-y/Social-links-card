@@ -6,6 +6,7 @@ import Zuri from "./tools/zuri.svg";
 import IFG from "./tools/i4g.svg";
 import Share from "./tools/share.svg";
 import ShareMobile from "./tools/share-mobile.svg";
+import Camera from './tools/camera.svg'
 import { Link } from "react-router-dom";
 
 
@@ -18,6 +19,8 @@ function Main() {
     <div className="profile-section">
          <div className="img">
            <img src={Pic} className="App-logo" alt="logo" id="profile_img" />
+           <img src={Camera} className="second-logo" alt="logo" id="second_img" />
+
          </div>
          <div className="share">
      
