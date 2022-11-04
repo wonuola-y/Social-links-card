@@ -128,12 +128,13 @@ hr {
 }
 .button{
   display: flex;
-justify-content: center;
-align-items: center;
+  /* align-items: center; */
+  justify-content: center;
+ background-color: blue;
 
 }
 .button-tag{
-background-color: #101828;
+  background-color: blue;
 border: none;
 color: white;
 width: 400px;
