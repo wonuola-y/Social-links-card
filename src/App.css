@@ -117,25 +117,51 @@ hr {
 .share-icon {
   display: none;
 }
+.form-details{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2em;
+
+}
+.form > div{
+  margin: 0em 1em;
+  font-size: 19px;
+  /* padding: 1em; */
+  width: 80%;
+}
+.form > div > p{
+  color: gray;
+}
 .form{
   display: flex;
   flex-direction: column;
-  margin: 2em;
+  margin: 1em;
   padding: 1em;
 }
-.header{
-  text-align: center;
+.names{
+  width: 100%;
+ display: flex;
+ justify-content: space-around;
+}
+.names > div{
+  width: 50%;
+}
+.names > div > input{
+  width: 70%;
 }
 .button{
   display: flex;
-  /* align-items: center; */
-  justify-content: center;
- background-color: blue;
+  
 
+
+}
+.check{
+  display: flex;
 }
 .button-tag{
   background-color: blue;
 border: none;
+border-radius: 7px;
 color: white;
 width: 400px;
 }
@@ -152,8 +178,37 @@ a:hover{
   background-color: rgba(208, 213, 221, 1);
 }
 @media screen and (min-width: 700px) {
+  .form > div{
+    margin: 0em 2em;
+    padding: 1em;
+  }
+  .form-details{
+    margin: 2em;
+  }
+  .button-tag{
+    background-color: blue;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  margin: 0em 1em;
+  width: 84%;
+  }
+  .form{
+   margin: 2em;
+  }
+  .names > div > input{
+
+    width: 60%;
+  }
   .share-mobile {
+
     display: none;
+  }
+  input, textarea{
+    width: 80%;
+  }
+  input[type="checkbox"]{
+    width: 10px;
   }
   .share > .share-icon {
     display: flex;
