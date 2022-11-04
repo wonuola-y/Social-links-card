@@ -63,7 +63,7 @@ function Main() {
          <a href="https://books.zuri.team/design-rules" id="book__design">
            Design Books <em>This is where you pitch the free design book offered by Zuri.</em>
          </a>
-         {/* <a href="/contact" id="contact">Contact me   </a> */}
+        
          <Link to='/contact'>Contact</Link>
        </div>
      </section>
