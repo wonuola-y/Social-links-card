@@ -167,6 +167,11 @@ width: 400px;
 }
 label{
   margin:0em 1em;
+  color: rgb(59, 59, 59);
+}
+.area{
+  display: flex;
+  flex-direction: column;
 }
 input, textarea{
   border: .5px solid gray;
