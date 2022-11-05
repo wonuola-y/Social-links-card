@@ -75,7 +75,7 @@ import { Link } from "react-router-dom";
               You agree to providing your data to Wonuola who may contact you
             </p>
           </div>
-          <Link to='/input'>Next</Link>
+        
           <input type="submit" value="Submit" id="btn__submit"
               className="button-tag submit" />
        
