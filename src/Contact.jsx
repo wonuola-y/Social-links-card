@@ -68,7 +68,7 @@ export default function Contact() {
 
         <input
           type="submit"
-          value="Submit"
+          value="Send me a message"
           id="btn__submit"
           className="button-tag submit"
         />
