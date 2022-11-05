@@ -1,8 +1,6 @@
 import React from "react";
-import { useState } from "react";
 import Zuri from "./tools/zuri.svg";
 import IFG from "./tools/i4g.svg";
-import { Link } from "react-router-dom";
 
 export default function Contact() {
   return (
