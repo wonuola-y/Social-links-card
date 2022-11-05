@@ -181,7 +181,6 @@ a:hover{
   background-color: rgba(208, 213, 221, 1);
 }
 input[type="checkbox"] {
-
   margin: 0 10px;
 }
 @media screen and (min-width: 700px) {
@@ -210,6 +209,10 @@ input[type="checkbox"] {
   .share-mobile {
 
     display: none;
+  }
+  .submit{
+    margin: 1.5em 0;
+
   }
   input, textarea{
     width: 80%;
