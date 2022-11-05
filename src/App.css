@@ -151,8 +151,6 @@ hr {
 }
 .button{
   display: flex;
-  
-
 
 }
 .check{
@@ -182,9 +180,13 @@ input, textarea{
 a:hover{
   background-color: rgba(208, 213, 221, 1);
 }
+input[type="checkbox"] {
+
+  margin: 0 10px;
+}
 @media screen and (min-width: 700px) {
   .form > div{
-    margin: 0em 2em;
+    margin: 0em;
     padding: 1em;
   }
   .form-details{
