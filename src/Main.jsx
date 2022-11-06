@@ -64,7 +64,7 @@ function Main() {
            Design Books <em>This is where you pitch the free design book offered by Zuri.</em>
          </a>
         
-         <Link to='/contact'>Contact</Link>
+         <Link to='/contact' id='contact'>Contact</Link>
        </div>
      </section>
  
